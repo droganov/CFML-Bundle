@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<cfcomponent displayname="${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}"${2: extends="${3:dao}"}${4: output="no"}>
+	$0
+</cfcomponent>
+]]></content>
+	<tabTrigger>cfcomponent</tabTrigger>
+	<scope>text.html.cfm</scope>
+</snippet>
